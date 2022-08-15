@@ -1,0 +1,60 @@
+.credit-card-inputs {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.credit-card-inputs__fields {
+  display: flex;
+  justify-content: space-between;
+}
+.credit-card-inputs__fields input {
+  border: none;
+  outline: none;
+  background: transparent;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ccc;
+  font-size: 2rem;
+  width: 23%;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  color: #555;
+  font-family: monospace;
+  padding: 0.5rem 0;
+  transition: all 0.3s;
+}
+@media (max-width: 600px) {
+  .credit-card-inputs__fields input {
+    font-size: 1rem;
+  }
+}
+.credit-card-inputs__fields input:focus {
+  border-color: lightseagreen;
+}
+.credit-card-inputs__fields input::placeholder {
+  color: #ccc;
+}
+.credit-card-inputs__reset {
+  display: block;
+  background: #eee;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-family: monospace;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+.credit-card-inputs__reset:hover {
+  background: #e5e5e5;
+}
+.credit-card-inputs__result {
+  margin-top: 2rem;
+}
+.credit-card-inputs__result h4 {
+  margin: 0;
+}
+.credit-card-inputs__result em {
+  display: block;
+}
+
+/*# sourceMappingURL=credit-card-input.css.map */

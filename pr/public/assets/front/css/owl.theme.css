@@ -1,0 +1,93 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.owl-height {
+	height:100%;
+	overflow:hidden;
+}
+.owl-height .owl-stage-outer {height:100%;} 
+.owl-height .owl-stage {height:100%;}
+.owl-height .owl-item {height:100%;}
+.owl-height .owl-item .item {height:100%;}
+.owl-theme .owl-nav {
+	position: absolute;
+	top: calc(50% - 12px);
+	transform: translateY(calc(-50% - 24px));
+	left: 0px;
+	right: 0px;
+	height: 0px;
+}
+.owl-theme .owl-nav .owl-prev {
+	float: right !important;
+	padding: 10px 0px 10px 0px !important;
+	color: #fff !important;
+	background-color: rgba(0,0,0,0.5) !important;
+	width: 42px !important;
+	height: 42px !important;
+	border-radius:50%;
+	text-align: center;
+	outline:none;
+   transition: all 0.5s;	
+}
+.owl-theme .owl-nav .owl-next {
+	float: left !important;
+	padding: 10px 0px 10px 0px !important;
+	color: #fff !important;
+	background-color: rgba(0,0,0,0.5) !important;
+	width: 42px !important;
+	height: 42px !important;
+	border-radius:50%;
+	text-align: center;
+	outline:none;
+   transition: all 0.5s;	
+}
+.owl-theme.owl-theme-nav2 .owl-nav {
+	position: absolute;
+	top: calc(50% - 24px);
+	transform: translateY(calc(-50% - 24px));
+	left: -24px;
+	right: -24px;
+	height: 0px;
+}
+.owl-theme.owl-theme-nav2 .owl-nav .owl-prev {
+	background-color: rgba(0,0,0,0.4) !important;
+	border-radius:50%;
+}
+.owl-theme.owl-theme-nav2 .owl-nav .owl-next {
+	background-color: rgba(0,0,0,0.4) !important;
+	border-radius:50%;
+}
+.owl-theme.owl-theme-nav2:hover .owl-nav .owl-next, 
+.owl-theme.owl-theme-nav2:hover .owl-nav .owl-prev{
+	background-color: rgba(0,0,0,0.8) !important;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #d05756;
+}
+.owl-theme .owl-dots .owl-dot span {
+	background-color: #d0575661;
+}
+
+/*---------------------------------------------------------------
+   light
+---------------------------------------------------------------*/
+.owl-theme.owl-theme-light .owl-nav {
+	left: -24px;
+	right: -24px;
+}
+.owl-theme.owl-theme-light .owl-nav .owl-next, 
+.owl-theme.owl-theme-light .owl-nav .owl-prev{
+	color: #ff8272 !important;
+	background-color: #fff !important;
+	width: 42px !important;
+	height: 42px !important;
+	line-height: 42px !important;
+	font-size: 2rem !important;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.owl-theme.owl-theme-light:hover .owl-nav .owl-next, 
+.owl-theme.owl-theme-light:hover .owl-nav .owl-prev{
+	background-color: #eee !important;
+}
